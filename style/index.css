@@ -71,7 +71,8 @@ p {
 
 #table {
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     position: relative;
     height: 87%;
     padding-right: 30px;
