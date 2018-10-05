@@ -73,8 +73,9 @@ p {
     flex-direction: column;
     overflow: scroll;
     position: relative;
-    height: 80%;
-    padding-right: 20px;
+    height: 87%;
+    padding-right: 30px;
+    margin-bottom: 10%;
 }
 
 .floor {
