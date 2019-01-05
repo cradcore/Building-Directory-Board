@@ -27,7 +27,7 @@ const switcher = (function () {
                 pageSwitch()
                 clearTimeout(timeout);
             }, 10000)
-        }, 35000);
+        }, 20000);
     }
 
     return {
@@ -37,7 +37,7 @@ const switcher = (function () {
 
 const scroller = (function () {
     const table = document.querySelector("#table");
-    const scrollHeight = table.scrollHeight * 3.5;
+    const scrollHeight = table.scrollHeight * 1.5;
     let currentPos = 0;
     let down = true;
     var timeout;
